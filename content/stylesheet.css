@@ -29,6 +29,11 @@ a:hover {
     margin-left: 10px;
 }
 
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
 #header {
     margin: 0 auto;
     margin-top: 20px;
