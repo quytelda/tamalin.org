@@ -13,12 +13,12 @@ end
 #  layout '/default.*'
 #end
 
+route '/**/index.{html,md}' do
+  '/index.html'
+end
+
 route '/**/*.{html,md}' do
-  if item.identifier =~ '/index.*'
-    '/index.html'
-  else
-    item.identifier.without_ext + '/index.html'
-  end
+  item.identifier.to_s
 end
 
 compile '/**/*' do
