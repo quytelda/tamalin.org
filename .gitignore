@@ -1,0 +1,15 @@
+# normal rules
+.*
+*.patch
+
+# temporary files
+*~
+*.old
+\#*#
+
+# nanoc generated files
+output
+tmp
+
+# exceptions
+!.gitignore
