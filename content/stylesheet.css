@@ -1,101 +1,126 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  font-family: Georgia, Palatino, serif;
+    font-family: Georgia, Palatino, serif;
 }
 
 body {
-  background: #fff;
+    background: #e5e5e5;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:link,
 a:visited {
-  color: #f30;
+    color: #393;
 }
 
 a:hover {
-  color: #f90;
+    color: #552288;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+#header {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 40px;
+
+    background: white;
+    border: 2px solid #c0c0c0;
+    border-radius: 15px;
 }
 
 #main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+    margin-left: 150px;
 }
 
 #main h1 {
-  font-size: 40px;
-  font-weight: normal;
+    font-size: 30px;
+    font-weight: normal;
 
-  line-height: 40px;
-
-  letter-spacing: -1px;
+    line-height: 40px;
+    letter-spacing: -1px;
 }
 
 #main p {
-  margin: 20px 0;
+    margin: 20px 0;
 
-  font-size: 15px;
-
-  line-height: 20px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 #main ul, #main ol {
-  margin: 20px;
+    margin: 20px;
 }
 
 #main li {
-  font-size: 15px;
+    font-size: 15px;
 
-  line-height: 20px;
+    line-height: 20px;
 }
 
 #main ul li {
-  list-style-type: square;
+    list-style-type: square;
 }
 
 #sidebar {
-  position: absolute;
+    float: left;
 
-  top: 40px;
-  left: 20px;
-  width: 200px;
+    margin-right: 35px;
+    padding-right: 25px;
+    border-right: 1px dashed #ccc;
 
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
-  text-align: right;
+    text-align: right;
+    font-weight: bold;
 }
 
 #sidebar h2 {
-  text-transform: uppercase;
+    color: #333;
 
-  font-size: 13px;
+    text-transform: uppercase;
 
-  color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 
 #sidebar ul {
-  list-style-type: none;
+    list-style-type: none;
 
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 #sidebar li {
-  font-size: 14px;
+    font-size: 14px;
 
-  line-height: 20px;
+    line-height: 20px;
+}
+
+#footer {
+    margin: 20px 40px;
+}
+
+#footer img {
+    float: right;
+    padding-left: 5px;
 }
