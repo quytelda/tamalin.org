@@ -13,10 +13,6 @@ end
 #  layout '/default.*'
 #end
 
-route '/**/index.{html,md}' do
-  '/index.html'
-end
-
 route '/**/*.{html,md}' do
   item.identifier.to_s
 end
